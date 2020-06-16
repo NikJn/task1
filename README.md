@@ -28,7 +28,9 @@ https://www.hashicorp.com/resources/ansible-terraform-better-together/
 
  
 Step-1:
+
 Create profile using AWS cli Command.
+
 cmd used : # aws configure --profile YOUR_PROFILE_NAME
  
 Step-2:
