@@ -159,31 +159,31 @@ Here following ansible scripts  run:
  
 - remove.yml:
 
-      For removing all the files and folder if exists in /var/www/html folder so if we run git clone command for downloading source code from Github won't Fail.
+  For removing all the files and folder if exists in /var/www/html folder so if we run git clone command for downloading source code from Github won't Fail.
       
  
 - git.yml:
 
-       For  downloading source code from Github.
+   For  downloading source code from Github.
        
  
 For Complete Setup in single file :
 
-      Use following files maincode.tf and s3-cloudfront-combine.tf .
+  Use following files maincode.tf and s3-cloudfront-combine.tf .
       
 And after run following Commands:
 
 cmd # terraform init 
 
-       For installing plugins of terraform for resources used in whole setup.
+  For installing plugins of terraform for resources used in whole setup.
        
 cmd # terraform apply
 
-       For building setup byrunning those files.
+  For building setup byrunning those files.
        
 cmd # terraform destroy
 
-       For destroying whole setup which we build.
+  For destroying whole setup which we build.
        
        
 
