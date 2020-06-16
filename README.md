@@ -34,14 +34,21 @@ Create profile using AWS cli Command.
 cmd used : # aws configure --profile YOUR_PROFILE_NAME
  
 Step-2:
+
 Create Key Pair using Terraform.
+
 For this use file key.tf.
  
 Step-3:
+
 Create Security Group using Terraform.
+
 For this use file securitygrp.tf.
+
 In this file create security group allowing SSH,HTTP as Inbound Rule.
+
 So for this we allow Port No. 22 and 80 .
+
 
 Step-4:
 Create S3 bucket for  storing  images used in Source Code uploaded by Developer in Github Directory and download this image to local system and make this bucket publically accessable.
